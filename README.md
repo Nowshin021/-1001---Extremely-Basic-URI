@@ -1,2 +1,2 @@
-# -1001---Extremely-Basic-URI
+Extremely-Basic-URI
 URI online judge
