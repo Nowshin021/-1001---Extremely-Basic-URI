@@ -1,0 +1,27 @@
+#include <stdio.h>
+
+
+int main()
+{
+   int x[20];
+   int i,temp;
+   for(i=0;i<20;i++)
+   {
+       scanf("%d", &x[i]);
+
+   }
+
+   for(i=0;i<10;i++)
+   {
+      temp = x[i];
+      x[i] = x[19-i];
+      x[19-i] = temp;
+   }
+
+   for(i=0;i<20;i++)
+   {
+       printf("N[%d] = %d\n",i,x[i]);
+   }
+
+    return 0;
+}
